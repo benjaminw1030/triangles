@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Is it a triangle??</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Is it a triangle?</h1>
+
+      <p>Enter the dimensions of your triangle:</p>
+
+      <form id="triangle">
+        <label for="side1">Side 1</label>
+        <input id="side1" type="text">
+        <label for="side2">Side 2</label>
+        <input id="side2" type="text">
+        <label for="side3">Side 3</label>
+        <input id="side3" type="text">
+        <button type="submit" class="btn">Triangle Result</button>
+      </form>
+
+      <div id="equilateral">
+        <p>Your triangle is equilateral</p>
+      </div>
+        <div id="isosceles">
+        <p>Your triangle is an isosceles</p>
+      </div>
+      <div id="scalene">
+        <p>Your triangle is a scalene</p>
+      </div>
+      <div id="nat">
+        <p>Your triangle is not a triangle</p>
+      </div>
+    </div>
+  </body>
+</html>
